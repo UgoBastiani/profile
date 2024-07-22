@@ -1,0 +1,105 @@
+@media (max-width: 960px) {
+  .container {
+    margin: auto;
+    width: 300px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    margin: auto;
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    margin: auto;
+    width: 300px;
+  }
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgba(220, 220, 220, 0.2);
+  font-weight: 400;
+  color: rgb(2, 0, 2);
+  line-height: 120%;
+  font-size: 100%;
+  text-align: center;
+  margin: 100;
+}
+
+h1, h2, h3 {
+  color: rgb(90, 175, 135);
+  font-family: "Merriweather", serif;
+  line-height: 100%;
+  font-size: 300%;
+}
+
+p {
+  font-size: 18;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  margin: 20;
+  border-radius: 8px;
+  box-shadow: 10px 10px 15px rgba(124, 119, 119, 0.603);
+  width: 75%;
+  display: inline-block;
+}
+
+.light_card {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  margin: 40;
+  border-radius: 8px;
+  box-shadow: 10px 10px 15px rgba(124, 119, 119, 0.603);
+  width: 50%;
+  display: inline-block;
+}
+
+.title-reduced {
+  font-size: 150%;
+  color: rgb(110, 18, 18);
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.logo {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  margin-right: 20;
+}
+
+i {
+  color: rgb(110, 18, 18);
+  font-size: 60px;
+}
+
+img {
+  width: 200px;
+  height: 200 px;
+  border-radius: 150px;
+}
+
+button {
+  width: 500px;
+  height: 50px;
+  background-color: #E60F05;
+  color: rgb(255, 255, 255);
+}
+
+button:hover {
+  color: #E60F05;
+  background-color: white;
+  transition: color 2s, background-color 2s;
+}
